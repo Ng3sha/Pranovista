@@ -3,107 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQs</title>
+    <title>Ayuvista | FAQs</title>
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-     <section class=" max-md:min-h-0">
+    <section class="max-md:min-h-screen">
         <div>
-                <nav class="flex gap-8 items-center px-[45px] h-[64px] py-[21px] w-full max-md:flex-wrap max-md:h-auto max-md:px-5 max-md:py-4 max-md:gap-x-4 max-md:gap-y-3">
-                    <input type="checkbox" id="menu-toggle" class="peer sr-only" aria-label="Toggle menu">
-
-                    <h1 class="text-[#424955] font-bold leading-[22px] text-[20px] font-Poppins">Ayuvista</h1>
-
-                    <label for="menu-toggle" class="md:hidden ml-auto cursor-pointer text-[#424955]">
-                        <svg class="size-[28px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-                    </label>
-
-                    <ul class="h-[22px] ml-auto text-[#424955] text-[16px] w-[708px] flex justify-between font-semibold max-md:hidden max-md:peer-checked:flex max-md:flex-col max-md:w-full max-md:h-auto max-md:ml-0 max-md:gap-4">
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Yoga</li>
-                        <li>Ayurvedic</li>
-                        <li>Pricing</li>
-                        <li>Help Center</li>
-                        <li>Contact Us</li>
-                        <li>FAQs</li>
-                    </ul>
-
-                        <button class="text-[#636AE8] border-none pl-6 leading-5.5 text-[16px] font-bold font-Poppins max-md:hidden max-md:peer-checked:block max-md:pl-0">Login</button>
-                        <button class="text-white rounded-[18px] bg-[#636AE8] mr-14 w-[147px] h-[36px] font-bold font-Poppins text-[16px] leading-5.5 max-md:hidden max-md:peer-checked:block max-md:mr-0">Try For Free</button>
-                </nav>
+            <nav class="bg-white flex md:h-16 h-12 w-full">
+                <div class="flex justify-between  items-center lg:w-350 md:w-188 w-80 mx-auto">
+                    <div class="sm:ml-2">
+                        <p class="text-xl font-bold text-[#424955] ">Ayuvista</p>
+                    </div>
+                    <div class="flex gap-16">
+                        <div class="lg:flex hidden items-center gap-6.25 font-Poppins text-[#424955] font-semibold">
+                            <a class="text-base font-semi-bold" href="./index.html">Home</a>
+                            <a class="text-base font-semi-bold" href="./about-us.html">About Us</a>
+                            <a class="text-base font-semi-bold" href="#">Yoga</a>
+                            <a class="text-base font-semi-bold" href="#">Ayuvedic</a>
+                            <a class="text-base font-semi-bold" href="./pricing.html">Pricing</a>
+                            <a class="text-base font-semi-bold" href="./help-center.html">Help Center</a>
+                            <a class="text-base font-semi-bold" href="./contact-us.html">Contact Us</a>
+                            <a class="text-base font-semi-bold" href="./faq.html">FAQs</a>
+                        </div>
+                        <div class="flex items-center gap-2.75">
+                            <a class="font-bold text-[#636AE8] md:text-base text-xs font-Poppins" href="#">Login</a>
+                            <div class="bg-[#636AE8] md:w-36.75 w-24 md:h-9 h-6 rounded-[18px] flex justify-center cursor-pointer mr-5">
+                                <button class="font-bold text-white cursor-pointer md:text-base text-sm" href="#">Try for free</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
 
-        <div class="md:h-[384px] bg-[#ACB0F8] w-full pt-20 max-md:pt-12 max-md:pb-12 max-md:px-5">
-            <p class="text-[52px] font-bold leading-[74px] font-Poppins tracking-normal text-center pt-30 max-md:text-[32px] max-md:leading-[44px] max-md:pt-4">Frequently asked</p>
-            <p class="text-[52px] font-bold leading-[74px] font-Poppins tracking-normal text-center max-md:text-[32px] max-md:leading-[44px]">questions</p>
+        <div class="md:min-h-110 min-h-screen bg-[#ACB0F8] w-full max-md:px-5 md:py-16 pb-0 flex flex-col justify-center relative">
+            <p class="text-[52px] font-bold font-Poppins tracking-normal text-center  max-md:text-[32px]  max-md:pt-4">Frequently asked</p>
+            <p class="text-[52px] font-bold font-Poppins tracking-normal text-center max-md:text-[32px]">questions</p>
             
-            <form class="max-w-md mx-auto mt-8">   
+            <div class="flex justify-center mt-8">   
                 <div class="relative">
-
-                    <span class="flex bg-[#757BEA] flex w-[519px] h-[51px] items-center rounded-[16px] border border-[#4850E4] max-md:w-full">
-                        <svg class="size-[24px] mx-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
-                        <p class="font-Inter  text-[#BCC1CA] leading-[28px]  shadow-xs text-[18px] ">Search</p>
-                    </span>
-                    
-                    <img class="relative left-170 h-[266.7532653808594px] w-[160.61582946777344px] bottom-55 max-md:hidden" src="./images/question-mark.png" alt="Question mark">
+                    <input class="bg-[#757BEA] md:w-129.75 w-94 pl-10 h-12.75 items-center md:rounded-2xl rounded-full border border-[#4850E4]  text-[#BCC1CA] text-[18px]" type="search" name="search" id="search" placeholder="search">
+                        <svg class="size-6 mx-3 absolute top-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
                 </div>
-            </form>
+            </div>
+            <img class="absolute right-15 top-25 h-[266.7532653808594px] w-[160.61582946777344px] bottom-55 max-md:hidden" src="./images/question-mark.png" alt="Question mark">
         </div>
     </section>
 
-    <section class="px-[132px] mx-auto flex justify-between mx-auto py-20 flex items-center rounded-[26px] max-md:flex-col max-md:items-start max-md:px-5 max-md:py-12 max-md:gap-8">
+    <section class=" mx-auto flex justify-around py-20 items-center rounded-[26px] max-md:flex-col max-md:items-start max-md:px-5 max-md:py-12 max-md:gap-8">
         <div class=" flex flex-col gap-8 max-md:w-full max-md:gap-4">
-            <div class="bg-[#636AE8] w-[191px] h-[52px] font-semibold font-Inter text-white text-[18px] text-center flex items-center justify-center rounded-[26px] leading-[28px] max-md:w-full"><p>General</p></div>
-            <div class="bg-transparent w-[191px] h-[52px] font-semibold font-Inter text-[#9095A0] border border-[#9095A0] text-[18px] text-center flex items-center justify-center rounded-[26px] leading-[28px] max-md:w-full"><p>Companies</p></div>
-            <div class="bg-transparent w-[191px] h-[52px] font-semibold font-Inter text-[#9095A0] border border-[#9095A0] text-[18px] text-center flex items-center justify-center rounded-[26px] leading-[28px] max-md:w-full"><p>Members</p></div>
-            <div class="bg-transparent w-[191px] h-[52px] font-semibold font-Inter text-[#9095A0] border border-[#9095A0] text-[18px] text-center flex items-center justify-center rounded-[26px] leading-[28px] max-md:w-full"><p>Society</p></div>
+            <div class="bg-[#636AE8] min-w-47.25 h-13 font-semibold font-Inter text-white text-[18px] text-center flex items-center justify-center rounded-[26px] leading-7 max-md:w-full"><p>General</p></div>
+            <div class="bg-transparent min-w-47.75 h-13 font-semibold font-Inter text-[#9095A0] border border-[#9095A0] text-[18px] text-center flex items-center justify-center rounded-[26px] leading-7 max-md:w-full"><p>Companies</p></div>
+            <div class="bg-transparent min-w-47.25 h-13 font-semibold font-Inter text-[#9095A0] border border-[#9095A0] text-[18px] text-center flex items-center justify-center rounded-[26px] leading-7 max-md:w-full"><p>Members</p></div>
+            <div class="bg-transparent min-w-47.25 h-13 font-semibold font-Inter text-[#9095A0] border border-[#9095A0] text-[18px] text-center flex items-center justify-center rounded-[26px] leading-7 max-md:w-full"><p>Society</p></div>
         </div>
         
         <div class="flex flex-col max-md:w-full">
             <div class="flex max-md:gap-4">
-                <p class="text-[26px] font-Poppins font-medium text-[#323842] w-[573px] max-md:w-auto max-md:text-[20px]">Excepteur esse sit sit eiusmod cillum nostr ?</p>
-                <svg class="size-[36px] ml-auto max-md:size-[28px] max-md:shrink-0" fill="#636AE8" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M377.749,228.416 L271.083,335.083c-4.16,4.16-9.621,6.251-15.083,6.251c-5.462,0-10.923-2.091-15.083-6.251L134.251,228.416 c-8.341-8.341-8.341-21.824,0-30.165s21.824-8.341,30.165,0L256,289.835l91.584-91.584c8.341-8.341,21.824-8.341,30.165,0 C386.091,206.592,386.091,220.075,377.749,228.416z"></path> </g> </g> </g></svg>
+                <p class="text-[26px] font-Poppins font-medium text-[#323842] w-143.25 max-md:w-auto max-md:text-[20px]">Excepteur esse sit sit eiusmod cillum nostr ?</p>
+                <svg class="size-9 ml-auto max-md:size-7 max-md:shrink-0" fill="#636AE8" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z M377.749,228.416 L271.083,335.083c-4.16,4.16-9.621,6.251-15.083,6.251c-5.462,0-10.923-2.091-15.083-6.251L134.251,228.416 c-8.341-8.341-8.341-21.824,0-30.165s21.824-8.341,30.165,0L256,289.835l91.584-91.584c8.341-8.341,21.824-8.341,30.165,0 C386.091,206.592,386.091,220.075,377.749,228.416z"></path> </g> </g> </g></svg>
             </div>
-            <p class="text-[16px] font-medium font-Poppins w-[581px] leading-[26px] twx-[#323842] mt-1 max-md:w-full">Esse consectetur nisi consequat ea do aliquip minim nostrud est incididunt excepteur esse cillum aliquip reprehenderit amet</p>
-            <hr class="bg-[#DEE1E6] w-[793px] my-6 max-md:w-full">
+            <p class="text-[16px] font-medium font-Poppins max-w-145.25 leading-6.5 twx-[#323842] mt-1 max-md:w-full">Esse consectetur nisi consequat ea do aliquip minim nostrud est incididunt excepteur esse cillum aliquip reprehenderit amet</p>
+            <hr class="bg-[#DEE1E6] w-198.25 my-6 max-md:w-full">
             <div class="flex max-md:gap-4">
                 <p class="text-[24px] font-Poppins font-medium text-[#323842] max-md:text-[18px]">Est ad incididunt sint magna incididunt?</p>
-                <svg class="size-[36px] ml-auto max-md:size-[28px] max-md:shrink-0" fill="#9095A0" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="rotate(270)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M256,5.333C114.88,5.333,0,117.76,0,256s114.88,250.667,256,250.667S512,394.24,512,256S397.12,5.333,256,5.333z M256,485.333C126.613,485.333,21.333,382.4,21.333,256S126.613,26.667,256,26.667S490.667,129.493,490.667,256 S385.387,485.333,256,485.333z"></path> <path d="M401.6,178.453c-4.8-3.733-11.52-3.093-15.253,1.493L256,340.373L125.653,179.947c-3.733-4.587-10.453-5.227-15.04-1.493 s-5.227,10.453-1.493,15.04L247.787,364.16c3.733,4.587,10.453,5.227,15.04,1.6c0.533-0.427,1.067-0.96,1.6-1.6l138.667-170.667 C406.827,188.907,406.08,182.187,401.6,178.453z"></path> </g> </g> </g> </g></svg>
+                <svg class="size-9 ml-auto max-md:size-7 max-md:shrink-0" fill="#9095A0" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="rotate(270)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M256,5.333C114.88,5.333,0,117.76,0,256s114.88,250.667,256,250.667S512,394.24,512,256S397.12,5.333,256,5.333z M256,485.333C126.613,485.333,21.333,382.4,21.333,256S126.613,26.667,256,26.667S490.667,129.493,490.667,256 S385.387,485.333,256,485.333z"></path> <path d="M401.6,178.453c-4.8-3.733-11.52-3.093-15.253,1.493L256,340.373L125.653,179.947c-3.733-4.587-10.453-5.227-15.04-1.493 s-5.227,10.453-1.493,15.04L247.787,364.16c3.733,4.587,10.453,5.227,15.04,1.6c0.533-0.427,1.067-0.96,1.6-1.6l138.667-170.667 C406.827,188.907,406.08,182.187,401.6,178.453z"></path> </g> </g> </g> </g></svg>
             </div>
-            <hr class="bg-[#DEE1E6] w-[793px] my-6 max-md:w-full">
+            <hr class="bg-[#DEE1E6] w-198.25 my-6 max-md:w-full">
             <div class="flex max-md:gap-4">
                 <p class="text-[24px] font-Poppins font-medium text-[#323842] max-md:text-[18px]">Proident irure officia anim ?</p>
-                <svg class="size-[36px] ml-auto max-md:size-[28px] max-md:shrink-0" fill="#9095A0" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="rotate(270)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M256,5.333C114.88,5.333,0,117.76,0,256s114.88,250.667,256,250.667S512,394.24,512,256S397.12,5.333,256,5.333z M256,485.333C126.613,485.333,21.333,382.4,21.333,256S126.613,26.667,256,26.667S490.667,129.493,490.667,256 S385.387,485.333,256,485.333z"></path> <path d="M401.6,178.453c-4.8-3.733-11.52-3.093-15.253,1.493L256,340.373L125.653,179.947c-3.733-4.587-10.453-5.227-15.04-1.493 s-5.227,10.453-1.493,15.04L247.787,364.16c3.733,4.587,10.453,5.227,15.04,1.6c0.533-0.427,1.067-0.96,1.6-1.6l138.667-170.667 C406.827,188.907,406.08,182.187,401.6,178.453z"></path> </g> </g> </g> </g></svg>
+                <svg class="size-9 ml-auto max-md:size-7 max-md:shrink-0" fill="#9095A0" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="rotate(270)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M256,5.333C114.88,5.333,0,117.76,0,256s114.88,250.667,256,250.667S512,394.24,512,256S397.12,5.333,256,5.333z M256,485.333C126.613,485.333,21.333,382.4,21.333,256S126.613,26.667,256,26.667S490.667,129.493,490.667,256 S385.387,485.333,256,485.333z"></path> <path d="M401.6,178.453c-4.8-3.733-11.52-3.093-15.253,1.493L256,340.373L125.653,179.947c-3.733-4.587-10.453-5.227-15.04-1.493 s-5.227,10.453-1.493,15.04L247.787,364.16c3.733,4.587,10.453,5.227,15.04,1.6c0.533-0.427,1.067-0.96,1.6-1.6l138.667-170.667 C406.827,188.907,406.08,182.187,401.6,178.453z"></path> </g> </g> </g> </g></svg>
             </div>
-            <hr class="bg-[#DEE1E6] w-[793px] my-6 max-md:w-full">
+            <hr class="bg-[#DEE1E6] w-198.25 my-6 max-md:w-full">
             <div class="flex max-md:gap-4">
                 <p class="text-[24px] font-Poppins font-medium text-[#323842] max-md:text-[18px]">Id anim nisi ut magna ut ?</p>
-                <svg class="size-[36px] ml-auto max-md:size-[28px] max-md:shrink-0" fill="#9095A0" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="rotate(270)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M256,5.333C114.88,5.333,0,117.76,0,256s114.88,250.667,256,250.667S512,394.24,512,256S397.12,5.333,256,5.333z M256,485.333C126.613,485.333,21.333,382.4,21.333,256S126.613,26.667,256,26.667S490.667,129.493,490.667,256 S385.387,485.333,256,485.333z"></path> <path d="M401.6,178.453c-4.8-3.733-11.52-3.093-15.253,1.493L256,340.373L125.653,179.947c-3.733-4.587-10.453-5.227-15.04-1.493 s-5.227,10.453-1.493,15.04L247.787,364.16c3.733,4.587,10.453,5.227,15.04,1.6c0.533-0.427,1.067-0.96,1.6-1.6l138.667-170.667 C406.827,188.907,406.08,182.187,401.6,178.453z"></path> </g> </g> </g> </g></svg>
+                <svg class="size-9 ml-auto max-md:size-7 max-md:shrink-0" fill="#9095A0" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" transform="rotate(270)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M256,5.333C114.88,5.333,0,117.76,0,256s114.88,250.667,256,250.667S512,394.24,512,256S397.12,5.333,256,5.333z M256,485.333C126.613,485.333,21.333,382.4,21.333,256S126.613,26.667,256,26.667S490.667,129.493,490.667,256 S385.387,485.333,256,485.333z"></path> <path d="M401.6,178.453c-4.8-3.733-11.52-3.093-15.253,1.493L256,340.373L125.653,179.947c-3.733-4.587-10.453-5.227-15.04-1.493 s-5.227,10.453-1.493,15.04L247.787,364.16c3.733,4.587,10.453,5.227,15.04,1.6c0.533-0.427,1.067-0.96,1.6-1.6l138.667-170.667 C406.827,188.907,406.08,182.187,401.6,178.453z"></path> </g> </g> </g> </g></svg>
             </div>
         </div>
     </section>
 
     <section class="flex items-center mx-auto">
-        
-        <div class="h-[240px] flex relative items-center justify-center my-20 mx-auto w-full max-md:h-auto max-md:my-12 max-md:px-5">
-            
-            <div class="border-2  w-[1176px] h-[240px] rounded-[20px] flex flex-col items-center justify-between py-[48px] gap-5 border-[#171A1F] max-md:w-full max-md:h-auto max-md:py-10 max-md:gap-6"> 
-                <p class="font-Archivo  font-bold text-[48px] leading-[68px] text-center max-md:text-[32px] max-md:leading-[44px]">Still have question?</p>
-                <button class="bg-[#6CB174] rounded-[26px] w-[242px] h-[52px] text-white font-Inter font-extrabold text-[18px] leading-[28px]">Contact us</button>
-                
-                <img class="relative text-[#65A76D] right-120 bottom-12 max-md:hidden" src="images/contact-us-arrow.png" alt="arrow">
-            </div>
-            
+        <div class="h-60 flex items-center justify-center my-20 mx-auto w-full max-md:h-auto max-md:my-12 max-md:px-5"> 
+            <div class="border-2  w-294 h-60 rounded-[20px] flex flex-col items-center justify-center gap-5 border-[#171A1F] max-md:w-full max-md:h-auto max-md:py-10 max-md:gap-6 relative"> 
+                <p class="font-Archivo  font-bold text-[48px] leading-17 text-center max-md:text-[32px] max-md:leading-11">Still have question?</p>
+                <button class="bg-[#6CB174] rounded-[26px] w-60.5 h-13 text-white font-Inter font-extrabold text-[18px]">Contact us</button>
+                <img class="absolute text-[#65A76D] right-90 bottom-12 max-md:hidden" src="images/contact-us-arrow.png" alt="arrow">
+            </div>  
         </div>
     </section>
-    
+
     <footer class="w-full min-h-screen">
 
     <!--   GET IN TOUCH -->
 
     <section class=" w-full md:mt-0 mt-5">
-        <div class="w-full bg-[#1D2128] h-131 sm:min-h-screen mx-auto">
+        <div class="w-full bg-[#1D2128] md:min-h-13.25 sm:min-h-screen mx-auto">
             <div class="md:w-294 w-fit mx-auto flex md:flex-row flex-col justify-between md:pt-13 pt-6 md:pb-9.75 pb-4.25">
                 <div class="flex flex-col md:gap-44.25 gap-10 md:mb-0 mb-10">
                     <p class="text-white text-[52px] font-bold font-Archivo"> Get In Touch</p>
@@ -148,8 +142,9 @@
         </div>
     </section>
 
+    <!-- Main Footer -->
 
-    <section class="w-full bg-white h-108.5">
+    <section class="w-full bg-white md:min-h-108.5 min-h-screen">
         <div class="md:w-294 w-fit mx-auto flex md:flex-row flex-col md:justify-between gap-10 text-black font-Poppins md:py-32 py-10">
             <div class="flex md:gap-28.25 gap-10 ">
                 <div class="flex flex-col gap-4">
@@ -206,6 +201,5 @@
         </div>
     </section>
     </footer>
-
 </body>
 </html>
